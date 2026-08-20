@@ -1,0 +1,7 @@
+{
+  "latest_version": "2.0.0",
+  "release_date": "2026-08-21",
+  "download_url": "https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest",
+  "changelog_en": "• Universal Multi-Project & Owner Standard Profiles\n• Full Bilingual (English 🇺🇸 & Bahasa Indonesia 🇮🇩) Support\n• Revit Native Extended Tooltips (LongDescription) on all Ribbon tools\n• Offline F1 Interactive User Guide & Documentation\n• Developer & Studio Profile for Mordalux Studio\n• Multi-Language Installer supporting Revit 2021 to 2027+",
+  "changelog_id": "• Profil Standar Proyek & Owner Universal\n• Dukungan Dua Bahasa Penuh (English 🇺🇸 & Bahasa Indonesia 🇮🇩)\n• Revit Native Extended Tooltips (Panduan Melayang Otomatis) di semua tombol\n• Panduan Interaktif Bantuan Tombol F1 Offline\n• Profil Pengembang & Mordalux Studio\n• Installer Multi-Bahasa dengan dukungan Revit 2021 s/d 2027+"
+}
