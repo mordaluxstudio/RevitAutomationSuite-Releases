@@ -1,4 +1,4 @@
-# ⚡ Revit Automation Suite (Enterprise Edition v2.0)
+# ⚡ Revit Automation Suite (Enterprise Edition v2.0.2)
 ### Official Showcase, Documentation & Release Download Portal
 
 [![Revit 2021-2027+](https://img.shields.io/badge/Autodesk%20Revit-2021--2027%2B-blue.svg?logo=autodesk)](https://www.autodesk.com/products/revit/)
@@ -12,7 +12,7 @@
 
 > [!TIP]
 > **Get the Official Standalone Installer:**  
-> 👉 **[⬇️ Download Revit Automation Suite v2.0.0 Setup (.exe)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)**  
+> 👉 **[⬇️ Download Revit Automation Suite v2.0.2 Setup (.exe)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)**  
 > *Compatible with Autodesk Revit 2021, 2022, 2023, 2024, 2025, 2026, and 2027+.*
 
 ---
