@@ -1,10 +1,10 @@
-# ⚡ Revit Automation Suite (Enterprise Edition v2.0.2)
+# ⚡ Revit Automation Suite (Enterprise Edition v1.0.1)
 ### Official Showcase, Documentation & Release Download Portal
 
 [![Revit 2021-2027+](https://img.shields.io/badge/Autodesk%20Revit-2021--2027%2B-blue.svg?logo=autodesk)](https://www.autodesk.com/products/revit/)
 [![.NET Dual Engine](https://img.shields.io/badge/.NET-4.8%20%7C%208.0%20Windows-512BD4.svg?logo=dotnet)](https://dotnet.microsoft.com/)
 [![Mordalux Studio](https://img.shields.io/badge/Developed%20by-Mordalux%20Studio-0284C7.svg)](https://mordalux-studio.vercel.app/)
-[![Latest Release](https://img.shields.io/badge/Release-v2.0.0%20Enterprise-emerald.svg)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)
+[![Latest Release](https://img.shields.io/badge/Release-v1.0.1%20Enterprise-emerald.svg)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)
 
 ---
 
@@ -12,7 +12,7 @@
 
 > [!TIP]
 > **Get the Official Standalone Installer:**  
-> 👉 **[⬇️ Download Revit Automation Suite v2.0.2 Setup (.exe)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)**  
+> 👉 **[⬇️ Download Revit Automation Suite v1.0.1 Setup (.exe)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)**  
 > *Compatible with Autodesk Revit 2021, 2022, 2023, 2024, 2025, 2026, and 2027+.*
 
 ---
@@ -33,7 +33,17 @@ Modern BIM workflows in infrastructure and building projects are bottlenecked by
 
 ## 🚀 Key Feature Modules
 
-### 1. 🔍 Universal BIM Model Quality & Dimension Checker
+### 1. 🧱 Box Underpass (BUP) Automatic 3D Rebar Suite (NEW in v1.0.1)
+* **Instant 3D Parametric Rebar Generation:** Automatically places full rebar cages inside Revit box framing models (`STR-Box-Underpass-City`).
+* **Complete Multi-Layer Reinforcement:**
+  * **12 Transversal Primary Bars:** T4, T3, B4, B3, W2, W3, and 4 corner haunch/chamfer bars with 50mm clear cover.
+  * **8 Longitudinal Distribution Sets:** T1, T2, B1, B2, and wall inner/outer layers.
+  * **Skew-Varying Corner Rebar:** Linear varying bars tailored for acute angles (0° to 20° skew angle, 2% cross-slope).
+  * **Approach Slab (Pelat Injak 5.0m):** Top/bottom main and distribution bars at Inlet and Outlet sides.
+  * **Structural End-Walls:** U-stirrups with inward anchor hooks and longitudinal bars for Headwalls and Footwalls.
+* **JTTS Color Palette & Real-Time BBS:** Automatic material coloring (D10 Brown, D13 Blue, D16 Red, D19 Yellow, D22 Green, D25 Magenta, D32 Cyan) and live Bar Bending Schedule calculation.
+
+### 2. 🔍 Universal BIM Model Quality & Dimension Checker
 * **14 Compliance Checkpoints:** File naming convention, Project Base Point (PBP) & Survey Point spatial coordinates, Level of Information Needed (LOIN), CAD link hygiene, purge status, and workset validation.
 * **9 Geometric QC Rules:** Width, height, top/bottom slab thickness, left/right wall thickness, slope percentage (±0.05%), and skew angle tolerance (±0.5°).
 * **ClosedXML 5-Sheet Excel Workbook:**
@@ -43,15 +53,15 @@ Modern BIM workflows in infrastructure and building projects are bottlenecked by
   4. `Auxiliary Components QC`
   5. `Material Verification`
 
-### 2. ⚙️ Box & Structure Standards Editor
+### 3. ⚙️ Box & Structure Standards Editor
 * Full visual configuration for family types, target benchmark dimensions, and tolerances.
 * **`📤 Export JSON`** and **`📥 Import JSON`** allows the BIM Manager to distribute project standards to the entire engineering team in 1 second.
 
-### 3. 🌐 Dual-Language Engine (English 🇺🇸 & Bahasa Indonesia 🇮🇩)
+### 4. 🌐 Dual-Language Engine (English 🇺🇸 & Bahasa Indonesia 🇮🇩)
 * Complete bilingual support for international contractors, multinational consultants, and Indonesian national megaprojects.
 * Toggle language anytime via the **Suite Options** menu.
 
-### 4. 💡 Revit Extended Tooltips & F1 Offline Documentation
+### 5. 💡 Revit Extended Tooltips & F1 Offline Documentation
 * Hovering over any ribbon tool triggers a native **Extended Tooltip** explaining its purpose and step-by-step usage.
 * Pressing **F1** anywhere inside Revit launches the comprehensive offline user guide.
 
