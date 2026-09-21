@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.1",
-  "release_date": "2026-09-07",
+  "latest_version": "1.0.2",
+  "release_date": "2026-09-21",
   "download_url": "https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest",
-  "changelog_en": "• NEW: Box Underpass (BUP) Automatic 3D Rebar Suite (SNI 2847 Compliant)\n• 3D Transversal, Longitudinal, & Skew Varying Corner Rebar Sets (0° to 20° Skew)\n• Approach Slab (Pelat Injak 5.0m) & Structural End-Wall (Headwall/Footwall) Rebar Modeling\n• JTTS Standard Color Palette & Real-Time Bar Bending Schedule (BBS) Estimation\n• Modern WPF Dialog with Stationing Preset Switching & Dark/Light Theme Integration\n• Universal Multi-Project & Owner Standard Profiles (Bilingual EN/ID)",
-  "changelog_id": "• BARU: Box Underpass (BUP) Automatic 3D Rebar Suite (Standar SNI 2847)\n• Pemasangan Tulangan Melintang, Memanjang, & Kipas Sudut Skew 3D (0° s/d 20° Skew)\n• Penulangan Pelat Injak (Approach Slab 5.0m) & Dinding Parapet/Pondasi (Headwall/Footwall)\n• Palet Warna Material Standar JTTS & Estimasi Rekapitulasi Pembesian (BBS) Real-Time\n• Dialog Modern WPF dengan Pilihan Preset Stationing & Integrasi Tema Gelap/Terang\n• Profil Standar Proyek & Owner Universal (Dukungan Dua Bahasa EN/ID)"
+  "changelog_en": "• NEW: Direct HTML & PDF Export for Schedules (interactive responsive tables & headless vector PDF)\n• NEW: Revit-Native PDF Export for Sheets & Views (100% scale/fit, auto sheet size, True Color, cleanup tags)\n• NEW: Intelligent Prefix Matching for Batch Multi-Model Processing (flexible matching across folders)\n• Upgraded Ribbon: Dual DWG/PDF & XLSX/HTML/PDF Export buttons with bilingual tooltips\n• Complete cross-version compatibility for Autodesk Revit 2021 through 2027+",
+  "changelog_id": "• BARU: Ekspor Langsung Jadwal (Schedules) ke HTML & PDF (tabel interaktif modern & PDF resolusi tinggi)\n• BARU: Ekspor Sheet & View ke Adobe PDF dengan Opsi Native Revit (skala 100%, ukuran kertas otomatis, True Color)\n• BARU: Pencocokan Awalan Cerdas (Prefix Match) untuk Batch Export (fleksibel menjaring model dengan variasi stasioning)\n• Peningkatan Tombol Ribbon: Tombol Multi-Format DWG/PDF & XLSX/HTML/PDF dengan tooltip dwibahasa\n• Kompatibilitas penuh seluruh versi Revit 2021 hingga 2027+"
 }

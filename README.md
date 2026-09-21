@@ -1,10 +1,10 @@
-# ⚡ Revit Automation Suite (Enterprise Edition v1.0.1)
+# ⚡ Revit Automation Suite (Enterprise Edition v1.0.2)
 ### Official Showcase, Documentation & Release Download Portal
 
 [![Revit 2021-2027+](https://img.shields.io/badge/Autodesk%20Revit-2021--2027%2B-blue.svg?logo=autodesk)](https://www.autodesk.com/products/revit/)
 [![.NET Dual Engine](https://img.shields.io/badge/.NET-4.8%20%7C%208.0%20Windows-512BD4.svg?logo=dotnet)](https://dotnet.microsoft.com/)
 [![Mordalux Studio](https://img.shields.io/badge/Developed%20by-Mordalux%20Studio-0284C7.svg)](https://mordalux-studio.vercel.app/)
-[![Latest Release](https://img.shields.io/badge/Release-v1.0.1%20Enterprise-emerald.svg)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)
+[![Latest Release](https://img.shields.io/badge/Release-v1.0.2%20Enterprise-emerald.svg)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)
 
 ---
 
@@ -12,7 +12,7 @@
 
 > [!TIP]
 > **Get the Official Standalone Installer:**  
-> 👉 **[⬇️ Download Revit Automation Suite v1.0.1 Setup (.exe)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)**  
+> 👉 **[⬇️ Download Revit Automation Suite v1.0.2 Setup (.exe)](https://github.com/mordaluxstudio/RevitAutomationSuite-Releases/releases/latest)**  
 > *Compatible with Autodesk Revit 2021, 2022, 2023, 2024, 2025, 2026, and 2027+.*
 
 ---
@@ -24,8 +24,9 @@ Modern BIM workflows in infrastructure and building projects are bottlenecked by
 | Challenge in Traditional Revit | Solved by Revit Automation Suite | Impact / ROI |
 |---|---|---|
 | ❌ **Manual Box Culvert & Structure QC** (takes 2-3 days of manual measuring) | ⚡ **Automated 0.13-Second Audit** (inspects 56+ box units, slope %, and skew angles) | **99% Faster** • Instant 5-Sheet Excel & HTML reports |
-| ❌ **Single-file `.txt` Schedule Exports** (requires hours of manual Excel formatting) | 📊 **1-Click Batch Schedule Exporter** (merges all tables into styled multi-sheet `.xlsx`) | **Formatted Tables** • Auto SUM formulas & borders |
-| ❌ **AutoCAD Version Conflicts** (external teams unable to open new DWG versions) | 📐 **1-Click Batch DWG Exporter** (locks AutoCAD 2018 compatibility standard) | **Zero Version Conflict** for external consultants |
+| ❌ **Single-file `.txt` Schedule Exports** (requires hours of manual Excel formatting) | 📊 **Multi-Format Schedule Exporter** (Excel `.xlsx`, Interactive `.html`, Vector `.pdf`) | **Formatted Tables** • Auto SUM formulas & live search |
+| ❌ **Manual Sheet-by-Sheet PDF/DWG Export** (slow, inconsistent paper sizes) | 📐 **Dual DWG & Native PDF Exporter** (AutoCAD 2018 + Revit-native auto paper-size PDF) | **Zero Conflict** • Combine or separate with 100% scale |
+| ❌ **Rigid Batch File Matching** (different stationing names break batch workflows) | 🎯 **Intelligent Prefix Matching** (matches variable stationing & suffixes across folders) | **Effortless Batching** without file renaming |
 | ❌ **3-5 Hours Manual Rebar Modeling** per box | 🧱 **3D Parametric Rebar Modeler** (generates full cages in under 3 seconds) | **Instant Rebar** with exact concrete cover offsets |
 | ❌ **Rigid Rules & Hardcoded Add-ins** | ⚙️ **Standards Editor & JSON Portability** (share rules across your team in 1 click) | **Team-Wide Consistency** without writing code |
 
@@ -33,7 +34,22 @@ Modern BIM workflows in infrastructure and building projects are bottlenecked by
 
 ## 🚀 Key Feature Modules
 
-### 1. 🧱 Box Underpass (BUP) Automatic 3D Rebar Suite (NEW in v1.0.1)
+### 1. 📊 Multi-Format Batch Schedule Exporter (NEW in v1.0.2)
+* **Direct Multi-Format Output:** Export ViewSchedules directly to **Excel (.xlsx)**, **Interactive HTML (.html)**, and **Vector PDF (.pdf)** without external software.
+* **Instant Real-Time Filter:** Exported HTML files feature a responsive, client-side live search filter to instantly look up rebar marks, dimensions, or materials in any browser.
+* **Automatic Summary & Formatting:** Auto-computes column sums (SUM), applies professional alternating row styles, and auto-fits column widths.
+* **Intelligent Prefix Matching:** Flexible reference matching across multiple Revit project models with varying stationing suffixes (e.g. `BBS - Box 01`, `BBS - Box 02`).
+
+### 2. 📐 Dual-Engine Sheet & View Exporter: DWG & Native Adobe PDF (NEW in v1.0.2)
+* **AutoCAD 2018 DWG Compatibility:** Locks into universal AutoCAD 2018 DWG format to guarantee compatibility with all consultant and contractor CAD versions.
+* **Revit-Native Vector PDF Export:** Employs Revit's native PDF export engine with full control over:
+  * Automatic paper size detection (`UseSheetSize`) and 100% zoom (no clipping / distortion).
+  * Combine multiple sheets into a single document or export individual sheet files.
+  * Color Depth: True Color, Grayscale, or Black Line.
+  * Automatic hide for unreferenced view tags, scope boxes, reference planes, and crop boundaries.
+* **Batch Multi-Model Support:** Export sheets and plan views across entire project folders simultaneously.
+
+### 3. 🧱 Box Underpass (BUP) Automatic 3D Rebar Suite
 * **Instant 3D Parametric Rebar Generation:** Automatically places full rebar cages inside Revit box framing models (`STR-Box-Underpass-City`).
 * **Complete Multi-Layer Reinforcement:**
   * **12 Transversal Primary Bars:** T4, T3, B4, B3, W2, W3, and 4 corner haunch/chamfer bars with 50mm clear cover.
@@ -43,7 +59,7 @@ Modern BIM workflows in infrastructure and building projects are bottlenecked by
   * **Structural End-Walls:** U-stirrups with inward anchor hooks and longitudinal bars for Headwalls and Footwalls.
 * **JTTS Color Palette & Real-Time BBS:** Automatic material coloring (D10 Brown, D13 Blue, D16 Red, D19 Yellow, D22 Green, D25 Magenta, D32 Cyan) and live Bar Bending Schedule calculation.
 
-### 2. 🔍 Universal BIM Model Quality & Dimension Checker
+### 4. 🔍 Universal BIM Model Quality & Dimension Checker
 * **14 Compliance Checkpoints:** File naming convention, Project Base Point (PBP) & Survey Point spatial coordinates, Level of Information Needed (LOIN), CAD link hygiene, purge status, and workset validation.
 * **9 Geometric QC Rules:** Width, height, top/bottom slab thickness, left/right wall thickness, slope percentage (±0.05%), and skew angle tolerance (±0.5°).
 * **ClosedXML 5-Sheet Excel Workbook:**
@@ -53,15 +69,15 @@ Modern BIM workflows in infrastructure and building projects are bottlenecked by
   4. `Auxiliary Components QC`
   5. `Material Verification`
 
-### 3. ⚙️ Box & Structure Standards Editor
+### 5. ⚙️ Box & Structure Standards Editor
 * Full visual configuration for family types, target benchmark dimensions, and tolerances.
 * **`📤 Export JSON`** and **`📥 Import JSON`** allows the BIM Manager to distribute project standards to the entire engineering team in 1 second.
 
-### 4. 🌐 Dual-Language Engine (English 🇺🇸 & Bahasa Indonesia 🇮🇩)
+### 6. 🌐 Dual-Language Engine (English 🇺🇸 & Bahasa Indonesia 🇮🇩)
 * Complete bilingual support for international contractors, multinational consultants, and Indonesian national megaprojects.
 * Toggle language anytime via the **Suite Options** menu.
 
-### 5. 💡 Revit Extended Tooltips & F1 Offline Documentation
+### 7. 💡 Revit Extended Tooltips & F1 Offline Documentation
 * Hovering over any ribbon tool triggers a native **Extended Tooltip** explaining its purpose and step-by-step usage.
 * Pressing **F1** anywhere inside Revit launches the comprehensive offline user guide.
 
