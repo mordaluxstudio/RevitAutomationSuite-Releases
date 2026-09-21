@@ -46,6 +46,7 @@ Modern BIM workflows in infrastructure and building projects are bottlenecked by
   * Automatic paper size detection (`UseSheetSize`) and 100% zoom (no clipping / distortion).
   * Combine multiple sheets into a single document or export individual sheet files.
   * **Dynamic Combined PDF Naming Rules:** Select between *Revit Model Name*, *Model Name + Custom Suffix*, or *Custom Manual Name* (with `{ModelName}` placeholder support) to eliminate overwrite risks during multi-model batch processing.
+  * **Dedicated Page Ordering Tab & Intelligent Natural Sorting:** Complete control over sheet sequence in Combined PDFs with Natural Sorting (`01/00` $\rightarrow$ `01/01` $\rightarrow$ `01/17`), selection order matching, Smart Cover & Index Priority, and live sequence simulation.
   * Color Depth: True Color, Grayscale, or Black Line.
   * Automatic hide for unreferenced view tags, scope boxes, reference planes, and crop boundaries.
 * **Batch Multi-Model Support:** Export sheets and plan views across entire project folders simultaneously.
